@@ -1,0 +1,90 @@
+{
+    "andrew": [
+        "m1",
+        "m3",
+        "m0",
+        null,
+        null,
+        null
+    ],
+    "john": [
+        "m6",
+        "m2",
+        "m0",
+        null,
+        null,
+        null
+    ],
+    "maximilian": [
+        "m1",
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "mateusz": [
+        null,
+        "m3",
+        null,
+        null,
+        null,
+        null
+    ],
+    "sthavana": [
+        "m4",
+        "m3",
+        null,
+        null,
+        null,
+        null
+    ],
+    "qing": [
+        "m5",
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "dhirendra": [
+        "m5",
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "indu": [
+        "m6",
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "roy": [
+        null,
+        "m2",
+        null,
+        null,
+        null,
+        null
+    ],
+    "jing": [
+        "m4",
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "kevin": [
+        "m6",
+        "m2",
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Schedule</title>
+
+  <meta charset="UTF-8" />
+
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <link rel="stylesheet" href="schedule-style.css">
+</head>
+
+<body>
+
+  <h1>Schedule</h1>
+
+  <div x-data="{
+    'schedule': {},
+    'length': 0,
+  }" x-init="
+    fetch('./schedule')
+        .then(res => res.json())
+        .then(res => {
+            schedule = res;
+            length = 6;
+        })
+  ">
+    <table>
+        <tr>
+            <th>
+                time
+            </th>
+            <template x-for="user in Object.keys(schedule)">
+                <th x-text="user"></th>
+            </template>
+        </tr>
+        <template x-for="i in length">
+            <tr>
+                <th x-text="(i - 1) * 10"></th>
+                <template x-for="user in schedule">
+                    <td x-text="user[i - 1]"></td>
+                </template>
+            </tr>
+        </template>
+    </table>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+table {
+    border: 1px solid; border-radius: 15px;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
